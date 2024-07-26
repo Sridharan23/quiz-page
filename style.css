@@ -47,8 +47,9 @@ body{
     text-decoration: underline;
     
 }
-.close{
-    text-align: end;
+.close {
+    display: flex;
+    justify-content: end;
     cursor: pointer;
 }
 .sidenav{
@@ -58,7 +59,7 @@ body{
     width: 30%;
 top: 0;
 padding: 50px;
-transition: 1.5s;
+transition: 1s;
 color: black;
      background-color: rgb(123, 123, 123);
 }
@@ -148,10 +149,13 @@ color: black;
   .topic{
     font-size: 25px;
   }
+  .hero{
+   margin-right: 20px;
+  }
 .content{
     width: 80%;
     top: 100px;
-     left: 10%;
+    
 }
   .content-quiz{
     font-size: 16px;
