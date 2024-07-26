@@ -10,3 +10,16 @@ let sidenav = document.querySelector(".sidenav")
  o.addEventListener("click",()=>{
     sidenav.style.transform="translateX(0px)"
  }) 
+
+ let popup = document.querySelector(".popup")
+ let cancel = document.querySelector(".cancel")
+ let start =document.querySelector(".continue")
+
+ let startBtn = document.querySelector(".startButton")
+
+ startBtn.addEventListener("click",()=>{
+   popup.style.display = "flex"
+ })
+ cancel.addEventListener("click",()=>{
+   popup.style.display = "none"
+ })

@@ -124,7 +124,41 @@ color: black;
     background-color: red;
 } 
  
-
+.popup{
+    font-size: 26px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     position: absolute; 
+     right: 0;
+    left: 0;
+    top: 0;
+     bottom: 0;
+   margin: auto;
+    width:40%;
+    background-color: rgb(146, 133, 154);
+    color: black;
+    font-weight: 700;
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 6px 55px 23px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 6px 55px 23px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 6px 55px 23px rgba(0,0,0,0.75);
+}
+.cancel{
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+} .continue{
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
 
 
 
@@ -165,4 +199,21 @@ color: black;
   .startButton{
     font-size: 16px;
   }
+
+
+
+  .popup{
+    font-size: 18px;
+    height: 200px;
+    width: 400px;
+  }
+.cancel{
+    font-size: 16px;
+   
+}
+ .continue{
+    font-size: 16px;
+   
+}
+
 }
