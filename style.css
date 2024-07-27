@@ -35,7 +35,12 @@ body{
     
 
 }
+.nav a{
+    text-decoration: none;
+}
 .nav li{
+    text-decoration: none;
+    color: black;
     margin: 10px;
     margin-left: 30px;
     list-style: none;
@@ -62,6 +67,7 @@ padding: 50px;
 transition: 1s;
 color: black;
      background-color: rgb(123, 123, 123);
+     z-index: 1000;
 }
 .sidenav li{
     color: black;
@@ -71,6 +77,9 @@ color: black;
     cursor: pointer;
 }
 
+.sidenav a{
+    text-decoration: none;
+}
 .sidenav li:hover{
     text-decoration: underline;
     
